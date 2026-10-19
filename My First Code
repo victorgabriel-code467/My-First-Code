@@ -1,0 +1,12 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		String Nome; // Variavel Nome
+		Console.WriteLine("Insira seu nome");
+		Nome = Console.ReadLine();
+		Console.WriteLine("Olá! " + Nome);
+	}
+}
